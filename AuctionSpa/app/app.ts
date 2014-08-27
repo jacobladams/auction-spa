@@ -1,4 +1,4 @@
-var app = angular.module('auctionSpa', ['ngRoute']);
+var app = angular.module('auctionSpa', ['ngRoute', 'ngResource']);
 
 app.config(['$routeProvider', ($routeProvider: ng.route.IRouteProvider) => {
 
